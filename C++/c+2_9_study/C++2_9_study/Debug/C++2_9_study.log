@@ -1,0 +1,23 @@
+﻿生成启动时间为 2021/2/9 22:38:54。
+     1>项目“F:\vsproject\C++\C++2_9_study\C++2_9_study\C++2_9_study.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\vs2013\2013安装\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Rectangle.cpp RoundRectangle.cpp test.cpp
+         test.cpp
+     1>f:\vsproject\c++\c++2_9_study\c++2_9_study\rectangle.h(3): error C2011: “Rectangle”:“class”类型重定义
+                 f:\vsproject\c++\c++2_9_study\c++2_9_study\rectangle.h(3) : 参见“Rectangle”的声明
+     1>f:\vsproject\c++\c++2_9_study\c++2_9_study\roundrectangle.h(4): error C2504: “Rectangle”: 未定义基类
+     1>f:\vsproject\c++\c++2_9_study\c++2_9_study\test.cpp(15): error C2027: 使用了未定义类型“Rectangle”
+                 f:\vsproject\c++\c++2_9_study\c++2_9_study\rectangle.h(3) : 参见“Rectangle”的声明
+     1>f:\vsproject\c++\c++2_9_study\c++2_9_study\test.cpp(15): fatal error C1903: 无法从以前的错误中恢复；正在停止编译
+         正在生成代码...
+         正在编译...
+         Rectangle.cpp
+         正在生成代码...
+         正在编译...
+         RoundRectangle.cpp
+         正在生成代码...
+     1>已完成生成项目“F:\vsproject\C++\C++2_9_study\C++2_9_study\C++2_9_study.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.43
