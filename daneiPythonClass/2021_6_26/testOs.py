@@ -1,0 +1,10 @@
+import os
+ans=os.path.getsize("111.jpg")
+list_cur_filedir=os.listdir(".")
+print(ans)
+print(list_cur_filedir)
+print("------------------------------")
+list_cur_filedir=os.listdir("..")
+print(list_cur_filedir)
+print("------------------------------")
+print(os.path.isfile("log.txt"))
