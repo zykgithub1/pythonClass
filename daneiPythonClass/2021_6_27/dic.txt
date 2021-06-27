@@ -1,0 +1,5 @@
+apple           :apple
+ambigerious     :character
+ambition        :strong heart
+big             :big things
+small           :small things
